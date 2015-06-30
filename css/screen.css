@@ -56,7 +56,7 @@ table {
    --------------------------------------------------------------------------------------- */
 
 body {
-	background: rgb(120,120,120);
+	background: url(../img/footer_lodyas.png) center center rgb(120,120,120);
 	padding: 20px 0;
 	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
 	font-size: 12px;
@@ -81,7 +81,7 @@ a:hover, a:visited:hover {
 }
 
 header {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 #name-title {
@@ -104,6 +104,38 @@ h2 {
 h3 {
 	text-transform: uppercase;
 	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+h4 {
+	font-weight: 700;
+	line-height: 1.5em;
+}
+
+h5 {
+	text-transform: uppercase;
+	font-size: 10px;
+	line-height: 1.5em;
+	color: #777;
+	margin-bottom: 3px;
+}
+
+section li {
+	margin-bottom: 10px;
+}
+
+section p {
+	line-height: 1.6em;
+}
+
+h4 span {
+	font-weight: 300;
+	font-style: italic;
+	padding-left: 3px;
+}
+
+h4 a {
+	font-weight: 500;
 }
 
 #contact {
@@ -135,15 +167,18 @@ h3 {
 }
 
 .col-left {
-	width: 30%;
+	width: 60%;
 	float: left;
 	/*background: blue;*/
 }
 
 .col-right {
-	width: 65%;
+	width: 30%;
 	float: right;
-	/*background: red;*/
+}
+
+section {
+	margin-bottom: 30px;
 }
 
 @media print {
