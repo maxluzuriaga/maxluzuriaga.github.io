@@ -120,6 +120,10 @@ h5 {
 	margin-bottom: 3px;
 }
 
+strong {
+	font-weight: bold;
+}
+
 section li {
 	margin-bottom: 10px;
 }
@@ -164,6 +168,7 @@ h4 a {
 .contact-content {
 	width: 90%;
 	float: right;
+	font-size: 12px;
 }
 
 .col-left {
