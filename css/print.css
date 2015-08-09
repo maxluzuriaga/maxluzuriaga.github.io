@@ -1,12 +1,15 @@
-html body {
+html body.resume  {
 	background: white;
 	padding: 0;
+    margin: 0.9in 0.63in;;
 }
 
 body.resume div#container  {
-	background: red;
+    background: red;]
+    overflow: hidden;
+
 	box-shadow: none;
-	padding: 70px;
+	padding: 0;
 	width: auto;
 	height: auto;
 	margin: 0;
