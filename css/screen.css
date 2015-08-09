@@ -56,9 +56,17 @@ table {
    --------------------------------------------------------------------------------------- */
 
 body {
-	background: url(../img/footer_lodyas.png) center center rgb(120,120,120);
-	padding: 20px 0;
 	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+}
+
+body.main {
+	font-size: 14px;
+}
+
+body.resume {
+	background: url(../img/footer_lodyas.png) center center rgb(120,120,120);
+	background-size: 600px;
+	padding: 20px 0;
 	font-size: 12px;
 }
 
@@ -71,17 +79,30 @@ a:hover, a:visited:hover {
 	text-decoration: underline;
 }
 
-#main {
+body.main #container {
+	max-width: 800px;
+	padding: 100px;
+}
+
+body.main p {
+	line-height: 1.5em;
+}
+
+body.resume #container {
 	background: white;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	padding: 75px;
-	width: 600px;
-	height: 820px;
+	padding: 70px;
+	width: 610px;
+	height: 830px;
 	margin: 0 auto;
 }
 
 header {
 	margin-bottom: 30px;
+}
+
+body.main header {
+	margin-bottom: 20px;
 }
 
 #name-title {
@@ -174,7 +195,14 @@ h4 a {
 .col-left {
 	width: 60%;
 	float: left;
-	/*background: blue;*/
+}
+
+img.hero {
+	width: 150px;
+	height: 150px;
+	float: left;
+	border-radius: 20px;
+	margin-top: 10px;
 }
 
 .col-right {
@@ -182,8 +210,32 @@ h4 a {
 	float: right;
 }
 
+body.main .col-right {
+	width: calc(100% - 170px);
+}
+
 section {
 	margin-bottom: 30px;
+}
+
+article p {
+	margin-bottom: 14px;
+}
+
+article {
+	border-bottom: 1px solid #eee;
+	margin-bottom: 14px;
+}
+
+footer ul {
+	/*width: 50%;*/
+	/*margin: 0 auto;*/
+}
+
+footer li {
+	/*margin-bottom: 10px;*/
+	float: left;
+	margin-right: 25px;
 }
 
 @media print {
@@ -198,7 +250,36 @@ section {
 		width: auto;
 		height: auto;
 		margin: 0;
+	}
 }
+
+@media (max-width: 900px) {
+	body.main #container {
+		padding: 70px;
+	}
+
+	img.hero {
+		width: 100px;
+		height: 100px;
+	}
+
+	body.main .col-right {
+		width: calc(100% - 120px);
+	}
+}
+
+@media (max-width: 700px) {
+	body.main #container {
+		padding: 40px;
+	}
+
+	img.hero {
+		display: none;
+	}
+
+	body.main .col-right {
+		width: 100%;
+	}
 }
 
 /* ---------------------------------------------------------------------------------------
