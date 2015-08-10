@@ -4,13 +4,26 @@ html body.resume  {
     margin: 0.9in 0.63in;;
 }
 
-body.resume div#container  {
-    background: red;]
-    overflow: hidden;
+html body.resume #container {
+    width: auto;
+}
 
-	box-shadow: none;
-	padding: 0;
-	width: auto;
-	height: auto;
-	margin: 0;
+#toolbar {
+    display: none;
+}
+
+html body.resume #page {
+    background: none;
+
+    box-shadow: none;
+    padding: 0;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+body.resume div#container  {
+    /*background: red;*/
+    width: auto;
+    height: auto;
 }
