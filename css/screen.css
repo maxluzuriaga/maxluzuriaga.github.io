@@ -251,7 +251,7 @@ article {
 	background: rgb(235,235,235);
 }
 
-.dark-button {
+.dark-button, .dark-button:visited {
 	background: rgba(255,255,255,0.1);
 	color: white;
 }
