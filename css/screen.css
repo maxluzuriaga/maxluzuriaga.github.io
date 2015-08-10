@@ -266,7 +266,7 @@ article {
 
 footer li {
 	float: left;
-	margin-right: 25px;
+	margin-right: 3.5%;
 }
 
 @media print {
@@ -311,9 +311,7 @@ footer li {
 	body.main .col-right {
 		width: 100%;
 	}
-}
 
-@media (max-width: 500px) {
 	footer li {
 		float: none;
 		margin-bottom: 10px;
