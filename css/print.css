@@ -1,7 +1,8 @@
 html body.resume  {
 	background: white;
 	padding: 0;
-    margin: 0.9in 0.63in;;
+    margin: 0.95in 0.7in;
+    overflow: hidden;
 }
 
 html body.resume #container {
@@ -13,7 +14,7 @@ html body.resume #container {
 }
 
 html body.resume #page {
-    background: none;
+    background: white;
 
     box-shadow: none;
     padding: 0;

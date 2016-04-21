@@ -67,7 +67,7 @@ body.resume {
 	background: url(../img/footer_lodyas.png) center center rgb(120,120,120);
 	background-size: 600px;
 	padding: 18px 0;
-	font-size: 12px;
+	font-size: 11px;
 }
 
 a, a:visited {
@@ -96,14 +96,14 @@ body.resume #container {
 body.resume #page {
 	background: white;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	padding: 70px 65px;
+	padding: 100px 85px;
 	width: 620px;
 	height: 840px;
 }
 
 
 body.resume header {
-	margin-bottom: 25px;
+	margin-bottom: 30px;
 	/*padding: 5px 0;*/
 }
 
@@ -113,13 +113,13 @@ body.main header {
 
 h1 {
 	font-weight: 700;
-	font-size: 36px;
+	font-size: 26px;
 	line-height: 1em;
-	margin-bottom: 9px;
+	margin-bottom: 12px;
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 16px;
 	color: #555;
 }
 
@@ -187,7 +187,6 @@ h4 a {
 }
 
 #contact {
-	width: 33.3%;
 	float: right;
 	/*padding-left: 17px;*/
 	font-weight: 300;
@@ -215,7 +214,7 @@ h4 a {
 }
 
 .col-left {
-	width: 60%;
+	width: 62%;
 	float: left;
 }
 
@@ -227,7 +226,7 @@ img.hero {
 }
 
 .col-right {
-	width: 30%;
+	width: 28%;
 	float: right;
 }
 
