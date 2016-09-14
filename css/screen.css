@@ -103,7 +103,7 @@ body.resume #page {
 
 
 body.resume header {
-    margin-bottom: 30px;
+    margin-bottom: 45px;
     /*padding: 5px 0;*/
 }
 
@@ -131,14 +131,16 @@ h3 {
 
 h4 {
     font-weight: 700;
-    line-height: 1.5em;
+    line-height: 1.4em;
+    float:left;
 }
 
 h5 {
+    text-align: right;
     color: #777;
     line-height: 1.5em;
     font-size: 11px;
-    margin-bottom: 1px;
+    margin-bottom: 7px;
     font-weight: 300;
 }
 
@@ -153,7 +155,7 @@ strong {
 }
 
 section {
-    margin-bottom: 22px;
+    margin-bottom: 30px;
 }
 
 section:last-child {
@@ -161,6 +163,10 @@ section:last-child {
 }
 
 section li {
+    margin-bottom: 17px;
+}
+
+section.list li {
     margin-bottom: 7px;
 }
 
@@ -169,6 +175,7 @@ section li:last-child {
 }
 
 section p {
+    clear: both;
     line-height: 1.6em;
 }
 
@@ -179,7 +186,7 @@ section p {
 h4 span {
     font-weight: 400;
     font-style: italic;
-    padding-left: 3px;
+    /* padding-left: 3px; */
 }
 
 h4 a {
@@ -224,7 +231,7 @@ h4 a {
 }
 
 .col-left {
-    width: 62%;
+    width: 65%;
     float: left;
 }
 
@@ -236,7 +243,7 @@ img.hero {
 }
 
 .col-right {
-    width: 28%;
+    width: 25%;
     float: right;
 }
 
