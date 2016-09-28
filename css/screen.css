@@ -103,7 +103,7 @@ body.resume #page {
 
 
 body.resume header {
-    margin-bottom: 45px;
+    margin-bottom: 35px;
     /*padding: 5px 0;*/
 }
 
@@ -126,21 +126,21 @@ h2 {
 h3 {
     text-transform: uppercase;
     font-weight: 300;
-    margin-bottom: 13px;
+    margin-bottom: 8px;
 }
 
 h4 {
     font-weight: 700;
     line-height: 1.4em;
-    float:left;
+    /* float:left; */
 }
 
 h5 {
-    text-align: right;
+    /* text-align: right; */
     color: #777;
     line-height: 1.5em;
     font-size: 11px;
-    margin-bottom: 7px;
+    /* margin-bottom: 3px; */
     font-weight: 300;
 }
 
@@ -155,7 +155,7 @@ strong {
 }
 
 section {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 section:last-child {
@@ -163,7 +163,7 @@ section:last-child {
 }
 
 section li {
-    margin-bottom: 17px;
+    margin-bottom: 10px;
 }
 
 section.list li {
@@ -220,12 +220,12 @@ h4 a {
 }
 
 .contact-icon {
-    width: 10%;
+    width: 12%;
     float: left;
 }
 
 .contact-content {
-    width: 90%;
+    width: 88%;
     float: right;
     font-size: 12px;
 }
@@ -243,7 +243,7 @@ img.hero {
 }
 
 .col-right {
-    width: 25%;
+    width: 28%;
     float: right;
 }
 
