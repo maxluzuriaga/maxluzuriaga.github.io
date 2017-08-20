@@ -35,7 +35,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
-ol, ul {
+ol {
     list-style: none;
 }
 blockquote, q {
@@ -56,7 +56,8 @@ table {
    --------------------------------------------------------------------------------------- */
 
 body {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+    /* font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, Sans-Serif; */
+    font-family: 'Lora', Sans-Serif;
 }
 
 body.main {
@@ -123,6 +124,10 @@ h2 {
     color: #555;
 }
 
+h3, h5 {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+}
+
 h3 {
     text-transform: uppercase;
     font-weight: 300;
@@ -162,16 +167,25 @@ section:last-child {
     margin-bottom: 0;
 }
 
-section li {
+section ol > li {
     margin-bottom: 10px;
 }
 
-section.list li {
+section.list ol > li {
     margin-bottom: 7px;
 }
 
-section li:last-child {
+section ol > li:last-child {
     margin-bottom: 0;
+}
+
+section ul {
+    list-style-type: disc;
+    line-height: 1.6em;
+}
+
+section ul li span {
+    font-style: italic;
 }
 
 section p {
@@ -186,7 +200,7 @@ section p {
 h4 span {
     font-weight: 400;
     font-style: italic;
-    /* padding-left: 3px; */
+    padding-left: 2px;
 }
 
 h4 a {
