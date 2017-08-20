@@ -1,5 +1,5 @@
 html body.resume  {
-	background: white;
+	background: red;
 	padding: 0;
     margin: 0.95in 0.7in;
     overflow: hidden;
@@ -7,6 +7,10 @@ html body.resume  {
 
 html body.resume #container {
     width: auto;
+}
+
+#contact li a {
+    color: black;
 }
 
 #toolbar {
