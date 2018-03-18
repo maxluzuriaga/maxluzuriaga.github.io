@@ -1,3 +1,6 @@
-<?php echo date("Y"); ?>
+<?php
 
-<p>Testing include </p>
+echo("Blah blah blah");
+
+header('Location: http://www.example.com/');
+exit;
